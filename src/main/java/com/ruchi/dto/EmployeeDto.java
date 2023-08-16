@@ -9,6 +9,14 @@ public class EmployeeDto {
 	private String EmpName;
 	private String Gender;
 	private Integer age;
+private Integer salary;
+	
+	public Integer getSalary() {
+		return salary;
+	}
+	public void setSalary(Integer salary) {
+		this.salary = salary;
+	}
 	public Integer getAge() {
 		return age;
 	}
